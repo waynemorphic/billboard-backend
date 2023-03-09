@@ -17,7 +17,7 @@ requestHeaders.append('Content-Type', 'application/json; charset=utf-8');
 const controller = new AbortController();
 const timeout = setTimeout(() => {
   controller.abort();
-}, 10000);
+}, 5000);
 
 // fetching data from blockonomics url wih set bearer auth
 const response = await fetch(baseUrl,{
