@@ -1,0 +1,20 @@
+{
+  "name": "messager-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Server for react messager app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\"&& exit 1"
+  },
+  "author": "Wayne Kirimi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0"
+  }
+}
